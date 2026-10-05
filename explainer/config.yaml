@@ -1,0 +1,13 @@
+model:
+  default: qwen/qwen3.8-27b:free
+  provider: openrouter
+  base_url: https://openrouter.ai/api/v1
+  api_mode: chat_completions
+_config_version: 46
+onboarding:
+  seen:
+    openclaw_residue_cleanup: true
+telegram:
+  require_mention: true
+  exclusive_bot_mentions: true
+  bots_require_mention: true
